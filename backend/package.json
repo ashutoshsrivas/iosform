@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Backend API for storing form submissions",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.3",
+    "multer": "^2.0.0"
+  }
+}
