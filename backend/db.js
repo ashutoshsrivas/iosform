@@ -1,10 +1,10 @@
 const mysql = require('mysql2/promise');
 
 const DB_CONFIG = {
-  host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME || 'form',
+  host: '82.25.121.128',
+  user: 'u762119963_form',
+  password: 'Iosform@123',
+  database: 'u762119963_form',
   waitForConnections: true,
   connectionLimit: 10,
 };
